@@ -5,6 +5,8 @@ using SimpleCalculatorClassLibrary;
 namespace CalculatorRESTfulWebService.Controllers
 {
     [ApiController]
+
+    //This here begins the implementation of the Webservice that handles addition
     [Route("api/addnumbers/{num_1}/{num_2}")]
     public class AddController : Controller
     {
@@ -17,6 +19,7 @@ namespace CalculatorRESTfulWebService.Controllers
         }
     }
 
+    //This here begins the implementation of the Webservice that handles subtraction
     [Route("api/subnumbers/{num_1}/{num_2}")]
     public class SubController : Controller
     {
