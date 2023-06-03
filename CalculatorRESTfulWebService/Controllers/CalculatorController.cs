@@ -1,11 +1,11 @@
 ﻿using ISimpleCalculatorClassLibrary;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using SimpleCalculatorClassLibrary;
 
 namespace CalculatorRESTfulWebService.Controllers
 {
     [ApiController]
-
     //This here begins the implementation of the Webservice that handles addition
     [Route("api/addnumbers/{num_1}/{num_2}")]
     public class AddController : Controller

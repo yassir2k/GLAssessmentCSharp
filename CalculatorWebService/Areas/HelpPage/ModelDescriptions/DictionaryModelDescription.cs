@@ -1,0 +1,6 @@
+namespace CalculatorWebService.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}
