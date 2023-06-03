@@ -13,6 +13,8 @@ namespace ISimpleCalculatorClassLibrary
     public class ImplementISimpleCalculator : ISimpleCalculator
     {
         //This class here implements and overrides the interfaces declared in the ISimpleCalculatorClassLibrary.cs class library
+
+        //For both functions, it is assumed start is the left operand and amount is the right operand
         public int Add(int start, int amount)
         {
             return (start + amount);

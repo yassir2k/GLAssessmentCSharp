@@ -7,7 +7,7 @@ namespace CalculatorRESTfulWebService.Controllers
 {
     [ApiController]
     //This here begins the implementation of the Webservice that handles addition
-    [Route("api/addnumbers/{num_1}/{num_2}")]
+    [Route("api/addnumbers/{num_1}/{num_2}")] //Service resource link templating
     public class AddController : Controller
     {
         [HttpGet(Name = "AddNumbers")]
@@ -20,7 +20,7 @@ namespace CalculatorRESTfulWebService.Controllers
     }
 
     //This here begins the implementation of the Webservice that handles subtraction
-    [Route("api/subnumbers/{num_1}/{num_2}")]
+    [Route("api/subnumbers/{num_1}/{num_2}")] //Service resource link templating
     public class SubController : Controller
     {
         [HttpGet(Name = "SubNumbers")]
