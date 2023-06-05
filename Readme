@@ -1,0 +1,7 @@
+This repository contains 3 separate solutions that are somehow intertwined in producing the end result (offering web service as a resource).
+Below is the description of the respective folders:
+1 - CalculatorUnitTest: This sub solution contains the implementation of the Unit Testing for the calculator's add and subtract functionalities.
+2 - CalculatorRESTfulWebService: Contains the implementation of the Web Service offering access via RESTful API.
+3 - ISimpleCalculatorClassLibrary: Contains implementation of the interface, and the class implementing the interface. The other 2 solutions above contained reference to this class.
+
+Finally, the CalculatorTest.sln is the (start up) Visual Studio solution file that keeps information about the organization of projects in the solution file
